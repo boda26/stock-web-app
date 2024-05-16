@@ -1,0 +1,38 @@
+<!-- <app-navbar></app-navbar>
+<router-outlet></router-outlet>
+      -->
+
+<style>
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+    #main-container {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    footer {
+        margin-top: auto;
+        background-color: #f5f5f5;
+        padding: 1rem;
+        text-align: center;
+    }
+    main {
+        margin-bottom: 15px;
+    }
+</style>
+
+<div id="main-container">
+    <header>
+        <app-navbar></app-navbar>
+    </header>
+    <main>
+        <router-outlet></router-outlet>
+    </main>
+    <footer style="background-color: #d0d0d0;">
+        <div class="container">
+            <h5 class="my-auto"><b>Powered by <a href="https://finnhub.io/">Finnhub.io</a></b></h5>
+        </div>
+    </footer>
+</div>

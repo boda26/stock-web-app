@@ -1,0 +1,7 @@
+{
+  "routes": [
+    "/portfolio",
+    "/search/home",
+    "/watchlist"
+  ]
+}

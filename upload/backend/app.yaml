@@ -1,0 +1,16 @@
+runtime: nodejs20
+env: standard
+
+handlers:
+- url: /api/.*
+  script: auto
+  secure: always
+
+- url: /(.*\.(gif|png|jpg|jpeg|css|js|ico|json|svg|woff|woff2|map))$
+  static_files: public/browser/\1
+  upload: public/browser/(.*)
+
+- url: /.*
+  static_files: public/browser/index.html
+  upload: public/browser/index.html
+  secure: always

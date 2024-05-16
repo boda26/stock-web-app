@@ -1,0 +1,14 @@
+.nav-link {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.navbar-toggler {
+    margin-right: 10px;
+}
+
+.active-outline {
+    border: 1px solid white !important; 
+}
