@@ -2,8 +2,8 @@
 
 ## Briefing
 
-Live demo: https://stockapp25.wl.r.appspot.com/search/home
-A single-page web application for stock information retrieval and trading. 
+Live demo: https://stockapp25.wl.r.appspot.com/search/home<br>
+A single-page web application for stock information retrieval and trading.\
 The project uses MongoDB as data storage, Node.js & Express.js as backend frameworks, and Angular 17 & Bootstrap 5 as frontend framework.
 
 ## Installing and running
@@ -22,6 +22,6 @@ ng serve
 
 ## Reference
 
-This project utilizes Finnhub stock API and Polygon.io API as data source.
-Finnhub: https://finnhub.io/
+This project utilizes Finnhub stock API and Polygon.io API as data source.\
+Finnhub: https://finnhub.io/<br>
 Polygon: https://polygon.io/
